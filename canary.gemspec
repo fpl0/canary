@@ -9,7 +9,9 @@ Gem::Specification.new do |spec|
   spec.email = ["me@fpl0.io"]
 
   spec.summary = "Experimental language translation daemon for seamless Git and Gemini integration."
-  spec.description = "Canary is an experimental language translation daemon designed to seamlessly integrate with Git and Gemini, providing high-quality, automated translations for your applications."
+  spec.description = "Canary is an experimental language translation daemon designed to " \
+                    "seamlessly integrate with Git and Gemini, providing high-quality, " \
+                    "automated translations for your applications."
   spec.homepage = "https://github.com/fpl0/canary"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
