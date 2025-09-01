@@ -10,14 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Experimental language translation daemon for seamless Git and Gemini integration."
   spec.description = "Canary is an experimental language translation daemon designed to " \
-                    "seamlessly integrate with Git and Gemini, providing high-quality, " \
-                    "automated translations for your applications."
+                     "seamlessly integrate with Git and Gemini, providing high-quality, " \
+                     "automated translations for your applications."
   spec.homepage = "https://github.com/fpl0/canary"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
